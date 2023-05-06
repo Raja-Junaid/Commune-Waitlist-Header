@@ -12,6 +12,10 @@ module.exports = {
         lightGray: "#444444",
         languidLavender: "#ccc1e6",
       },
+
+      gridTemplateColumns: {
+        custom: "3fr 1fr",
+      },
     },
   },
   plugins: [],
