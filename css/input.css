@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+/* ========= Navbar Animation ========= */
+.modal {
+  animation: slideInRight 0.5s forwards ease-in-out;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
