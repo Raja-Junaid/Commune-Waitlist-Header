@@ -21,9 +21,50 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="bg-veryPaleBlue">
     <!--========================= NAVBAR =========================-->
+    <nav class="relative container mx-auto px-7 py-8">
+      <div class="flex justify-between items-center">
+        <div>
+          <img src="Assets/Logo.svg" alt="Logo" />
+        </div>
+        <div
+          class="text-lg text-darkGray font-semibold tracking-wide md:block hidden"
+        >
+          <a href="#" class="mx-5 md:mx-1 lg:mx-5">Features</a>
+          <a href="#" class="mx-5 md:mx-1 lg:mx-5">Affiliates</a>
+          <a href="#" class="mx-5 md:mx-1 lg:mx-5">Pricing</a>
+          <a href="#" class="mx-5 md:mx-1 lg:mx-5">Communities</a>
+          <button
+            class="mx-5 px-4 py-3 bg-deepPurple text-White font-semibold rounded-md"
+            >Join Waitlist</button
+          >
+        </div>
+        <div class="hamburger text-2xl text-black md:hidden">
+          <i class="ri-menu-fill"></i>
+        </div>
+      </div>
 
+      <div class="md:hidden">
+        <div
+          class="modal absolute flex-col w-screen h-screen items-center self-end py-0 mt-0 justify-center space-y-8 font-bold tracking-normal text-xl text-darkGray bg-blue-50 sm:w-auto sm:self-center top-0 right-0 drop-shadow-2xl hidden"
+        >
+          <div
+            class="close text-2xl bg-lightGray font-light text-White rounded-lg p-1 py-0 absolute top-7 right-7"
+          >
+            <i class="ri-close-line"></i>
+          </div>
+          <a href="#" class="">Features</a>
+          <a href="#" class="">Affiliates</a>
+          <a href="#" class="">Pricing</a>
+          <a href="#" class="">Join Waitlist</a>
+          <a href="#" class="">Communities</a>
+        </div>
+      </div>
+    </nav>
     <!--==========================================================-->
+
+    <!--=============== JavaScript ===============-->
+    <script src="js/script.js"></script>
   </body>
 </html>
