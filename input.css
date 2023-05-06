@@ -6,6 +6,7 @@ body {
   font-family: "Nunito Sans", sans-serif;
 }
 
+/* ========= Navbar Animation ========= */
 .modal {
   animation: slideInRight 0.5s forwards ease-in-out;
 }
